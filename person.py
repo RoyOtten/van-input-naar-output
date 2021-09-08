@@ -1,10 +1,10 @@
-print("client#1351")
-naam = input ('name?') 
-adres = input ('adress')
-zipcode = input ('zipcode') 
-location = input ('location') 
-
-
-
- 
-
+naam = input ("geef je naam") 
+adres = input ("geef je adres") 
+postcode = input ("geef je postcode")
+woonplaats = input ("geef je woonplaats") 
+print(" ---------------------------------------------------- ") 
+print("|   naam =" +        naam)
+print("|   adres =" +       adres) 
+print("|   postcode =" +    postcode) 
+print("|   woonplaats =" +  woonplaats)
+print(" ----------------------------------------------------")
